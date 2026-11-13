@@ -1,0 +1,448 @@
+.hero-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.55fr 1fr;
+  gap: 55px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  min-height: 800px;
+}
+
+.hero h1 {
+  font-size: clamp(56px,6.7vw,96px);
+  letter-spacing: -.025em;
+  line-height: 1.05;
+  margin-top: 65px;
+  white-space: nowrap;
+}
+
+.hero h1 em {
+  color: var(--orange);
+  font-size: 1.06em;
+}
+
+.hero .intro {
+  font-size: 22px;
+  line-height: 1.2;
+  margin-top: 46px;
+  margin-bottom: 54px;
+}
+
+.hero .eyebrow {
+  font-size: 12px;
+}
+
+.hero-meta {
+  margin-top: 115px;
+}
+
+.hero-meta p+p {
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+.hero-meta b {
+  font-weight: 400;
+  padding: 0 8px;
+}
+
+.portrait-area {
+  position: relative;
+  align-self: start;
+  margin-top: 34px;
+}
+
+.portrait {
+  height: 550px;
+  border-radius: 240px 240px 10px 10px;
+  box-shadow: 16px 16px 0 var(--orange);
+  overflow: hidden;
+}
+
+.portrait img {
+  height: 100%;
+  width: 100%;
+  object-position: 50% 50%;
+}
+
+.role {
+  position: absolute;
+  bottom: -5px;
+  left: -60px;
+  background: var(--paper);
+  color: var(--ink);
+  padding: 18px 22px;
+  min-width: 345px;
+  border-radius: 3px;
+}
+
+.role .eyebrow {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.role p+p {
+  margin-top: 8px;
+  font-size: 22px;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 39px;
+  right: 8%;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #b4b5ad;
+}
+
+.scroll span {
+  margin-left: 12px;
+}
+
+.ribbon {
+  background: var(--orange);
+  padding: 23px 4%;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.ribbon>div {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.ribbon span {
+  display: inline-block;
+  padding: 0 25px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 390px 1fr;
+  gap: 10%;
+  padding-bottom: 5px;
+}
+
+.about-photo {
+  height: 480px;
+  width: 100%;
+  object-position: 50% 35%;
+  box-shadow: 18px 18px 0 #dfddd4;
+  border-radius: 2px;
+}
+
+.about .lead {
+  margin-top: 50px;
+}
+
+.lead {
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.body-copy {
+  margin-top: 52px;
+}
+
+.signature {
+  border-top: 1px solid var(--line);
+  margin-top: 66px;
+  padding-top: 18px;
+}
+
+.signature em {
+  font-size: 28px;
+}
+
+.signature p {
+  margin-top: 16px;
+}
+
+.strengths {
+  border-top: 1px solid var(--line);
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.strengths>.eyebrow {
+  margin-bottom: 23px;
+}
+
+.strengths h2 {
+  font-size: 40px;
+}
+
+.strength-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 26px;
+  margin-top: 48px;
+}
+
+.strength-grid article+article {
+  border-left: 1px solid var(--line);
+  padding-left: 26px;
+}
+
+.number {
+  font-size: 13px;
+}
+
+.strength-grid h3 {
+  font-size: 25px;
+  margin: 18px 0;
+}
+
+.strength-grid p {
+  font-size: 17px;
+}
+
+.strength-grid .eyebrow {
+  font-size: 10px;
+  margin-top: 46px;
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
+.section-heading>p {
+  max-width: 360px;
+}
+
+.career article {
+  display: grid;
+  grid-template-columns: 20% 32% 1fr;
+  gap: 15px;
+  padding: 32px 0 65px;
+  min-height: 225px;
+  border-top: 1px solid #3b3d35;
+}
+
+.career h3 {
+  font-size: 35px;
+}
+
+.job {
+  margin-top: 12px;
+  font-size: 19px;
+}
+
+.job+.eyebrow {
+  margin-top: 30px;
+}
+
+.dates p+p {
+  margin-top: 10px;
+}
+
+.dates {
+  color: #b4b5ad;
+}
+
+.career ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #b4b5ad;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.education h2 {
+  font-size: 48px;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: 1.08fr 1fr;
+  gap: 60px;
+  border-top: 1px solid var(--line);
+  padding-top: 35px;
+  margin-top: 46px;
+}
+
+.education h3 {
+  margin-top: 22px;
+  margin-bottom: 17px;
+  font-size: 30px;
+}
+
+.education .lead+.eyebrow {
+  margin-top: 20px;
+}
+
+.education .muted {
+  margin-top: 26px;
+  font-size: 17px;
+}
+
+.school {
+  margin-top: 36px;
+  font-size: 16px;
+}
+
+.school+.muted {
+  margin-top: 8px;
+}
+
+.qualifications {
+  border-left: 1px solid var(--line);
+  padding-left: 60px;
+}
+
+.qualifications>div+div {
+  border-top: 1px solid var(--line);
+  margin-top: 17px;
+  padding-top: 21px;
+}
+
+.qualifications p+p {
+  margin-top: 20px;
+}
+
+.beyond {
+  border-top: 1px solid var(--line);
+}
+
+.beyond h2+p {
+  margin-top: 16px;
+}
+
+.beyond-grid {
+  display: grid;
+  grid-template-columns: 1.75fr 1fr;
+  gap: 68px;
+  margin-top: 26px;
+}
+
+.beyond img {
+  width: 100%;
+  height: 450px;
+  object-position: 50% 39%;
+  border-radius: 3px;
+}
+
+.beyond figcaption {
+  margin-top: 22px;
+  font-size: 10px;
+}
+
+.beyond h3 {
+  font-size: 46px;
+  margin: 10px 0 40px;
+}
+
+.beyond .muted {
+  line-height: 1.5;
+}
+
+.interests {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  padding: 0;
+  margin: 52px 0 0;
+  font-size: 16px;
+}
+
+.interests li {
+  border-top: 1px solid var(--line);
+  padding: 16px 0;
+}
+
+.giving {
+  background-color: var(--orange);
+  background-image: linear-gradient(rgba(255,98,57,.84),rgba(255,98,57,.84)),url("../assets/zamora.jpeg");
+  background-size: cover;
+  background-position: center 48%;
+  background-repeat: no-repeat;
+  padding: 48px 0 68px;
+}
+
+.giving-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 80px;
+}
+
+.giving h2 {
+  font-size: 50px;
+  margin-top: 31px;
+}
+
+.giving h3 {
+  margin: 30px 0 24px;
+  font-size: 26px;
+  letter-spacing: 0;
+}
+
+.contact {
+  padding-top: 64px;
+  padding-bottom: 0;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1.65fr 1fr;
+  gap: 80px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.contact h2 {
+  font-size: clamp(70px,7.5vw,108px);
+  line-height: 1.02;
+}
+
+.contact h2 em {
+  color: var(--orange);
+  font-size: 1.13em;
+}
+
+.contact .lead {
+  font-size: 25px;
+}
+
+.email {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  color: var(--orange);
+  font-size: 25px;
+  border-bottom: 1px solid #92503a;
+  padding-bottom: 12px;
+  margin: 40px 0 30px;
+}
+
+.email span {
+  font-size: 30px;
+}
+
+footer {
+  border-top: 1px solid #3b3d35;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+  font-size: 12px;
+  color: #b4b5ad;
+}
+
+footer p+p {
+  margin: 0;
+}
+
+footer a,footer p:nth-child(2) {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+footer a {
+  color: var(--paper);
+}

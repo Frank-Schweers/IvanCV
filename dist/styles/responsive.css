@@ -1,0 +1,303 @@
+@media(min-width:1441px) {
+  .hero-grid {
+    gap: 55px;
+  }
+  .wrap {
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+}
+
+@media(max-width:1100px) {
+  .navlinks {
+    margin-right: 8%;
+    gap: 30px;
+  }
+  .hero-grid {
+    gap: 35px;
+    min-height: 700px;
+  }
+  .hero h1 {
+    font-size: 6.5vw;
+  }
+  .portrait {
+    height: 450px;
+  }
+  .role {
+    min-width: 280px;
+    left: -30px;
+  }
+  .role p+p {
+    font-size: 18px;
+  }
+  .hero-meta {
+    margin-top: 75px;
+  }
+  .ribbon {
+    font-size: 16px;
+  }
+  .ribbon span {
+    padding: 0 15px;
+  }
+  .about-grid {
+    grid-template-columns: 32% 1fr;
+    gap: 9%;
+  }
+  .about-photo {
+    height: 420px;
+  }
+  .signature {
+    margin-top: 40px;
+  }
+  .beyond-grid {
+    gap: 40px;
+  }
+  .beyond h3 {
+    font-size: 38px;
+  }
+  .contact-grid {
+    gap: 40px;
+  }
+  .email {
+    font-size: 21px;
+  }
+}
+
+@media(max-width:760px) {
+  body {
+    font-size: 16px;
+  }
+  .wrap {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  nav {
+    height: 82px;
+  }
+  .logo {
+    font-size: 34px;
+  }
+  .navlinks {
+    gap: 18px;
+    margin: 0;
+    font-size: 12px;
+  }
+  .navlinks a:last-child {
+    display: none;
+  }
+  nav .button {
+    padding: 10px 14px;
+    font-size: 12px;
+    gap: 12px;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    gap: 35px;
+  }
+  .hero h1 {
+    font-size: clamp(43px,10.5vw,76px);
+    margin-top: 33px;
+  }
+  .hero .intro {
+    font-size: 18px;
+    margin: 28px 0;
+  }
+  .hero-meta {
+    margin-top: 30px;
+  }
+  .hero-meta p+p {
+    font-size: 12px;
+    max-width: 320px;
+  }
+  .portrait-area {
+    width: 76%;
+    max-width: 340px;
+    margin: 10px auto 35px;
+  }
+  .portrait {
+    height: 370px;
+    box-shadow: 10px 10px 0 var(--orange);
+  }
+  .role {
+    left: -22px;
+    bottom: -12px;
+    min-width: 260px;
+    padding: 16px;
+  }
+  .scroll {
+    bottom: 18px;
+    right: 24px;
+  }
+  .ribbon {
+    padding: 18px 24px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .ribbon span {
+    padding: 0 7px;
+  }
+  .ribbon>div {
+    line-height: 2;
+  }
+  .section {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .section>.eyebrow,.section>.wrap>.eyebrow {
+    margin-bottom: 25px;
+  }
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+  .about-photo {
+    height: 400px;
+    width: 85%;
+    max-width: 340px;
+    box-shadow: 12px 12px 0 #dfddd4;
+  }
+  .about h2 {
+    font-size: 45px;
+  }
+  .about .lead {
+    margin-top: 27px;
+  }
+  .lead {
+    font-size: 20px;
+  }
+  .body-copy {
+    margin-top: 25px;
+  }
+  .signature {
+    margin-top: 30px;
+  }
+  .signature em {
+    font-size: 25px;
+  }
+  .strengths h2 {
+    font-size: 32px;
+  }
+  .strength-grid {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+    gap: 28px;
+  }
+  .strength-grid article+article {
+    padding: 24px 0 0;
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+  .strength-grid .eyebrow {
+    margin-top: 22px;
+  }
+  .section-heading {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .section-heading h2 {
+    font-size: 42px;
+  }
+  .section-heading>p {
+    margin-top: 25px;
+  }
+  .career article {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 28px 0 35px;
+  }
+  .dates {
+    display: flex;
+    gap: 20px;
+  }
+  .dates p+p {
+    margin: 0;
+  }
+  .career h3 {
+    font-size: 30px;
+  }
+  .job+.eyebrow {
+    margin-top: 16px;
+  }
+  .career ul {
+    font-size: 15px;
+  }
+  .education h2 {
+    font-size: 38px;
+  }
+  .education-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-top: 30px;
+  }
+  .qualifications {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding: 25px 0 0;
+  }
+  .beyond h2 {
+    font-size: 38px;
+  }
+  .beyond-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .beyond img {
+    height: 330px;
+  }
+  .beyond h3 {
+    font-size: 42px;
+    margin-bottom: 24px;
+  }
+  .interests {
+    margin-top: 25px;
+  }
+  .giving {
+    padding: 40px 0;
+  }
+  .giving-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  .giving h2 {
+    font-size: 42px;
+    margin-top: 22px;
+  }
+  .giving h3 {
+    font-size: 23px;
+    margin: 18px 0;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-bottom: 45px;
+  }
+  .contact h2 {
+    font-size: 76px;
+  }
+  .contact .lead {
+    font-size: 23px;
+  }
+  .email {
+    font-size: 22px;
+    margin-top: 25px;
+  }
+  footer {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 25px 0;
+  }
+  footer p:first-child {
+    width: 100%;
+  }
+}
+
+@media(prefers-reduced-motion:reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .button {
+    transition: none;
+  }
+}
